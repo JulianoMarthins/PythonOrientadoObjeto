@@ -18,7 +18,8 @@ class ContaCorrete:
         self.cartao = []
 
     @staticmethod
-    def _dataHora():  # Função retorna a data de brasilia formatada
+    def _dataHora():
+        # Função retorna a data de brasilia formatada
         fuso_br = pytz.timezone('Brazil/East')
         horario_br = datetime.now(fuso_br)
 
